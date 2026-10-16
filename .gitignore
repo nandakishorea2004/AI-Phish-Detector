@@ -1,0 +1,18 @@
+
+# Dataset - do not upload the large CSV
+data/
+
+# Trained model - regenerate locally
+phishing_model.joblib
+
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Environment secrets
+.env
+
+# OS/editor files
+.DS_Store
